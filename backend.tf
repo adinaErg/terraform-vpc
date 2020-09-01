@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "terraform-state-class-adina"
+        bucket = "jenkins-terraform-vpc"
         key = "terraform_vpc/us-east-1/class/dev/infrastructure.tfstate"
         region = "us-east-1"
     }
