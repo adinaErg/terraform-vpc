@@ -73,4 +73,3 @@ terraform {
 EOF
 rm -rf .terraform
 cat backend.tf
-terraform-0.13 init 
